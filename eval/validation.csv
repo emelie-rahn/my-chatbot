@@ -1,0 +1,26 @@
+text,expected_intent,expected_slots
+"""Book a yoga class tomorrow at 6 pm""",BookClass,"{""class_type"": ""Yoga"", ""date"": ""2026-10-23"", ""time"": ""6 pm""}"
+"""Sign me up for spinning""",BookClass,"{""class_type"": ""Spin""}"
+"""Cancel my yoga booking""",CancelBooking,"{""class_type"": ""Yoga""}"
+"""Show me the class schedule""",CheckSchedule,{}
+"""Find a Pilates class""",FindClass,"{""class_type"": ""Pilates""}"
+"""Hello""",Greeting,{}
+"""What can you help me with""",Help,{}
+"""Tell me a joke""",None,{}
+"""Good morning""",Greeting,{}
+"""Cancel my spinning class at 6""",CancelBooking,"{""class_type"": ""Spin"", ""date"": ""2026-10-22"", ""time"": ""6""}"
+"""Reserve me a spot in Zumba on Friday at 7 pm""",BookClass,"{""class_type"": ""Zumba"", ""date"": ""2026-10-23"", ""time"": ""7 pm""}"
+"""I want to take a Pilates class""",BookClass,"{""class_type"": ""Pilates""}"
+"""Can you book me for a cycling class tomorrow morning""",BookClass,"{""class_type"": ""Cycling"", ""date"": ""2026-10-23""}"
+"""Please cancel my Spin reservation for tomorrow""",CancelBooking,"{""class_type"": ""Spin"", ""date"": ""2026-10-23""}"
+"""I need to cancel my HIIT class""",CancelBooking,"{""class_type"": ""HIIT""}"
+"""Remove my booking for strength training on Friday""",CancelBooking,"{""class_type"": ""Strength Training"", ""date"": ""2026-10-23""}"
+"""What classes are available tomorrow""",CheckSchedule,"{""date"": ""2026-10-23""}"
+"""Can I see the schedule for Friday""",CheckSchedule,"{""date"": ""2026-10-23""}"
+"""What time is the next swimming class""",CheckSchedule,"{""class_type"": ""Swimming""}"
+"""Are there any boxing classes tomorrow at 5 pm""",FindClass,"{""class_type"": ""Boxing"", ""date"": ""2026-10-23"", ""time"": ""5 pm""}"
+"""Do you offer dance classes""",FindClass,"{""class_type"": ""Dance""}"
+"""Look for a strength class this week""",FindClass,"{""class_type"": ""Strength Training""}"
+"""Hey there""",Greeting,{}
+"""Can you explain how this gym bot works""",Help,{}
+"""What's the weather like on Mars?""",None,{}

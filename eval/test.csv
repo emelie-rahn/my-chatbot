@@ -1,0 +1,37 @@
+text,expected_intent,expected_slots
+"""I'd like to book a yoga class.""",BookClass,"{""class_type"": ""yoga""}"
+"""Sign me up for a spin class on Friday.""",BookClass,"{""class_type"": ""spin"", ""date"": ""Friday""}"
+"""Can you reserve a spot in pilates tomorrow morning?""",BookClass,"{""class_type"": ""pilates"", ""date"": ""tomorrow"", ""time"": ""morning""}"
+"""I want to join the 6pm strength class.""",BookClass,"{""class_type"": ""strength"", ""time"": ""18:00""}"
+"""Book me a cycling class for Monday at 7am.""",BookClass,"{""class_type"": ""cycling"", ""date"": ""Monday"", ""time"": ""07:00""}"
+"""Please register me for yoga on Saturday at 10am.""",BookClass,"{""class_type"": ""yoga"", ""date"": ""Saturday"", ""time"": ""10:00""}"
+"""Can I get a spot in spin tomorrow at 5:30pm?""",BookClass,"{""class_type"": ""spin"", ""date"": ""tomorrow"", ""time"": ""17:30""}"
+"""Reserve two spots in pilates for Friday at noon.""",BookClass,"{""class_type"": ""pilates"", ""date"": ""Friday"", ""time"": ""12:00""}"
+"""Book a strength class for me and my friend on Tuesday at 6pm.""",BookClass,"{""class_type"": ""strength"", ""date"": ""Tuesday"", ""time"": ""18:00""}"
+"""Sign me up for yoga at 8am and spin at 9am tomorrow.""",BookClass,"{""class_type"": ""yoga"", ""date"": ""tomorrow"", ""time"": ""08:00""}"
+"""Cancel my yoga reservation.""",CancelBooking,"{""class_type"": ""yoga""}"
+"""I can't make my spin class tomorrow. Please cancel it.""",CancelBooking,"{""class_type"": ""spin"", ""date"": ""tomorrow""}"
+"""Please remove me from pilates on Friday.""",CancelBooking,"{""class_type"": ""pilates"", ""date"": ""Friday""}"
+"""Cancel my 6pm strength class on Monday.""",CancelBooking,"{""class_type"": ""strength"", ""date"": ""Monday"", ""time"": ""18:00""}"
+"""Can you cancel my cycling booking for Saturday at 9am?""",CancelBooking,"{""class_type"": ""cycling"", ""date"": ""Saturday"", ""time"": ""09:00""}"
+"""Delete my yoga reservation for tomorrow morning.""",CancelBooking,"{""class_type"": ""yoga"", ""date"": ""tomorrow"", ""time"": ""morning""}"
+"""Cancel my spot in spin for Friday at 5pm.""",CancelBooking,"{""class_type"": ""spin"", ""date"": ""Friday"", ""time"": ""17:00""}"
+"""Never mind, cancel my pilates class tomorrow at noon.""",CancelBooking,"{""class_type"": ""pilates"", ""date"": ""tomorrow"", ""time"": ""12:00""}"
+"""Book me a ygo class tomorow at 7am.""",BookClass,"{""class_type"": ""yoga"", ""date"": ""tomorrow"", ""time"": ""07:00""}"
+"""Can u sign me up for spin tmrw at 6?""",BookClass,"{""class_type"": ""spin"", ""date"": ""tomorrow"", ""time"": ""18:00""}"
+"""Pls cancel my pilates sesh on Fri.""",CancelBooking,"{""class_type"": ""pilates"", ""date"": ""Friday""}"
+"""i wanna book strenght for monday at 5pm lol""",BookClass,"{""class_type"": ""strength"", ""date"": ""Monday"", ""time"": ""17:00""}"
+"""I don't want to book yoga anymore.""",CancelBooking,"{""class_type"": ""Yoga"", ""date"": ""tomorrow""}"
+"""Don't cancel my spin class tomorrow.""",None,{}
+"""What's the weather going to be like tomorrow?""",None,{}
+"""Can you recommend a good laptop for college?""",None,{}
+"""What is the capital of France?""",None,{}
+"""Help me write a cover letter for a data analyst job.""",None,{}
+"""Can you tell me the latest NBA scores?""",None,{}
+"""What's a good recipe for homemade pizza?""",None,{}
+"""How do I calculate the standard deviation in R?""",None,{}
+"""Tell me the nutritional information for a banana.""",None,{}
+"""Book yoga tomorrow at 7am and tell me the weather forecast.""",BookClass,"{""class_type"": ""yoga"", ""date"": ""tomorrow"", ""time"": ""07:00""}"
+"""Cancel my spin class on Friday and recommend a movie.""",CancelBooking,"{""class_type"": ""spin"", ""date"": ""Friday""}"
+"""Sign me up for pilates at 6pm, but don't book strength training.""",BookClass,"{""class_type"": ""pilates"", ""time"": ""18:00""}"
+"""Cancel my yoga booking for Tuesday at 8am, and tell me a joke.""",CancelBooking,"{""class_type"": ""yoga"", ""date"": ""Tuesday"", ""time"": ""08:00""}"
